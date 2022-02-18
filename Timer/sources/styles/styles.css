@@ -1,0 +1,106 @@
+html{
+        font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+        padding: 0;
+        margin: 0px;    
+}
+
+section {
+        background: linear-gradient(#a0eca6, #106103);
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        min-width: 100vw;
+        min-height: 100vh;
+        
+}
+
+
+.main-content {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 40px;
+        min-width: 35rem;
+        min-height: 60vh;
+}
+
+.title{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+}
+
+.main-content h1 {
+        font-size: 40px;
+        
+}
+
+.forms{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+}
+
+.forms form input {
+        cursor: pointer;
+        width: 60px;
+        height: 60px;
+        font-size: 45px;
+        padding: 0px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid rgb(226, 223, 223);
+
+}
+
+.div-button {
+        display: flex;
+        justify-content: center;
+        
+}
+
+.button {
+        cursor: pointer;
+        margin: 10px;
+        display: flex;
+        width: 130px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: Red;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px 0px 3px rgb(148, 146, 146);
+}
+
+.button-2 {
+        cursor: pointer;
+        margin: 10px;
+        display: flex;
+        width: 130px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: rgb(18, 119, 35);
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px 0px 3px rgb(148, 146, 146)
+}
+
+.button:hover{
+        width: 135px;
+        height: 62px;
+}
+.button-2:hover{
+        width: 135px;
+        height: 62px;
+}
